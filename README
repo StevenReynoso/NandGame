@@ -1,0 +1,56 @@
+# 🧠 NandGame / NAND2Tetris Project
+
+This is my implementation and documentation of the **NandGame** (inspired by [NAND2Tetris](https://www.nand2tetris.org/)), where I build a basic computer from the ground up — starting with a single NAND gate.
+
+---
+
+## 🚀 What This Project Is
+
+This project walks through the process of creating:
+- **Logic gates** from NAND (NOT, AND, OR, XOR, etc.)
+- **Memory components** (flip-flops, registers, RAM)
+- **ALU** (Arithmetic Logic Unit)
+- **CPU and instruction control logic**
+
+Each component is built from scratch and documented to show how higher-level functionality emerges from basic gates.
+
+---
+
+## 📚 What I Learned
+
+- How complex computers can be built from simple NAND gates
+- The relationship between hardware and software logic
+- Binary data manipulation and memory control
+- CPU design concepts and instruction decoding
+
+---
+
+## 🔧 Tools / Simulation Platforms Used
+
+- [nandgame.com](https://nandgame.com/)
+- Optional: Logisim / HDL Simulator
+---
+
+## ✍️ Notes
+
+I wrote short explanations for each component to reinforce the logic, design choices, and what I learned.  
+Each `.txt` file contains:
+- A description of the component
+- How it works
+- How it’s built from lower-level parts
+
+---
+
+## 📌 Credits
+
+Based on the concepts from:
+- [nandgame.com](https://nandgame.com/)
+
+---
+
+## 🧠 More Coming Soon
+
+I'm continuing to work on:
+- Assembly
+- Transistor Side of NandGame
+- Real hardware simulation
