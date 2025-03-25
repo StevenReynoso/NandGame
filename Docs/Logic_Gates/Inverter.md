@@ -2,8 +2,7 @@
 
 ## 🧠 Overview
 Now that we’ve created a NAND gate using relays, we can build a **NOT gate** by connecting **both inputs of a NAND gate to the same signal**.
-the logical NOT gate symbol is 
-![not-gate](https://github.com/user-attachments/assets/e005d6c8-d117-407d-a471-31eb02feb77a)
+
 
 
 ### 🔁 How It Works
@@ -19,10 +18,6 @@ With this inverter built from NAND, we now have another essential component to h
 
 ---
 
-## 🧪 Truth Table
+## 🧪 Not Symbol and Truth Table
 
-| Input | Output |
-|-------|--------|
-|   0   |   1    |
-|   1   |   0    |
-
+![not-gate](https://github.com/user-attachments/assets/e005d6c8-d117-407d-a471-31eb02feb77a)
