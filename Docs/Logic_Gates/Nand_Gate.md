@@ -8,7 +8,7 @@ This NAND gate is built using two **SPDT (Single Pole Double Throw)** electromec
 ## 🧱 The NAND Gate Being Created
 The NAND (NOT AND) gate is the inverse of an AND gate, which becomes clear when comparing their truth tables. It's considered the **easiest digital logic gate to implement** using relays and is also the most powerful — since **all other logic gates can be built from NAND gates alone**.
 
-In fact, NAND gates are known as a **"universal gate"** and form the foundation of all digital logic systems. At the lowest level, modern processors use millions (or billions) of logic gates — many of which are based on this exact concept.
+In fact, NAND gates are known as a **"universal gate"** and form the foundation of all digital logic systems. At the lowest level, modern processors use millions (or billions) of logic gates — many of which are based on this exact concept. 
 
 
 ## ⚙️ How It Works
@@ -30,14 +30,9 @@ In **all other input combinations**, at least one relay remains unenergized, kee
 
 ---
 
-## 🧪 NAND Truth Table
+## 🧪 NAND Symbol and Truth Table
 
-| Input A | Input B | Output |
-|---------|---------|--------|
-|   0     |    0    |   1    |
-|   0     |    1    |   1    |
-|   1     |    0    |   1    |
-|   1     |    1    |   0    |
+![nand-gate](https://github.com/user-attachments/assets/f4a57c98-4fa1-4608-8b8b-6432075807cc)
 
 ---
 
