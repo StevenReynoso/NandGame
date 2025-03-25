@@ -221,5 +221,5 @@ Solutions for The Nand Game, a game that teaches the fundamentals of computing b
 
 👤 **Steven Reynoso**
 
-- LinkedIn: [@arasgungore]()
-- GitHub: [@arasgungore]()
+- LinkedIn: [@Steven Reynoso](https://www.linkedin.com/in/steven-reynoso-729315272/)
+- GitHub: [@Steven Reynoso](https://github.com/StevenReynoso)
