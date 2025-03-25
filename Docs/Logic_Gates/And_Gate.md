@@ -19,7 +19,8 @@ This construction shows how we can build more complex logic by **chaining simple
 
 ## 🧪 Symbol and Truth Table
 
-![AND Gate Symbol](and-gate.png)
+![and-gate](https://github.com/user-attachments/assets/20adade7-9668-49ef-9318-f97ff1a451e1)
+
 
 You might notice this looks almost identical to a NAND gate. The only visual difference is the **missing circle** (inversion bubble) at the tip of the NAND gate symbol. That small circle represents the **inversion** — so when it’s not there, we’re just looking at an AND gate.
 
