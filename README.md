@@ -80,8 +80,10 @@ Builds a NOT gate using a NAND gate by tying both inputs together. This creates 
 
 ### AND Gate
 <img src= "https://github.com/user-attachments/assets/417dbc0a-8b8e-4e3a-99e3-9a283273c547" width="500" height='500'>
+
+this builds the AND Gate, which takes two inputs and will tell you if they are both on, this is created by inverting the output of a NAND gate.
  
-( Notes )
+📖 [Full Explanation →](Docs/Logic_Gates/And_Gate.md)
 
 ### OR Gate
 <img src= "https://github.com/user-attachments/assets/f1a27035-6c10-437f-9ecb-1288a5c8ca47" width="500" height='500'>
