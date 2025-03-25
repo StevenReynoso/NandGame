@@ -77,31 +77,38 @@ Solutions for The Nand Game, a game that teaches the fundamentals of computing b
 ## Arithmetic
 
 ### Half Adder
-<img src="arithmetic/half_adder.png" width="400">
+<img src="https://github.com/user-attachments/assets/4e686314-48a7-4b3c-9334-e59d71cc1d49" width="500" height='500'>
+
 ( Notes )
 
 ### Full Adder
-<img src="arithmetic/full_adder.png" width="400">
+<img src="https://github.com/user-attachments/assets/3590fa52-51e3-47c8-879e-1fdcf3740c2b" width="500" height='500'>
+
 ( Notes )
 
 ### Multi-bit Adder
-<img src="arithmetic/multibit_adder.png" width="400">
+<img src="https://github.com/user-attachments/assets/0b11db3e-de45-4540-9f38-364ed4fa2f87" width="500" height='500'>
+
 ( Notes )
 
 ### Increment
-<img src="arithmetic/increment.png" width="400">
+<img src="https://github.com/user-attachments/assets/d8ffba22-b6b3-46c4-b39a-e313b17727e9" width="500" height='500'>
+
 ( Notes )
 
 ### Subtraction
-<img src="arithmetic/subtraction.png" width="400">
+<img src="https://github.com/user-attachments/assets/871fc244-b1e0-47fa-b7f1-9a6cff942f8d" width="500" height='500'>
+
 ( Notes )
 
 ### Equal to Zero
-<img src="arithmetic/equal_to_zero.png" width="400">
+<img src="https://github.com/user-attachments/assets/c502d255-aae9-4633-a898-f4c7e19d4d23" width="500" height='500'>
+
 ( Notes )
 
 ### Less than Zero
-<img src="arithmetic/less_than_zero.png" width="400">
+<img src="https://github.com/user-attachments/assets/57d63085-1c59-4e33-a295-de3d45fec8a4" width="500" height='500'>
+
 ( Notes )
 
 
