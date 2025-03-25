@@ -64,10 +64,12 @@ Solutions for The Nand Game, a game that teaches the fundamentals of computing b
 
 ## Logic Gates
 
-### NAND Gate
+### 🔌 NAND Gate
 <img src="https://github.com/user-attachments/assets/c3360df9-9a24-41c2-adcf-3f0bb96029d3" width="500" height='500'>
 
-( Notes )
+This NAND gate is built using two SPDT (Single Pole Double Throw) relays. Each input (A and B) controls one relay's coil. The relays are wired so that only when **both inputs are HIGH** do the coils switch their contacts and disconnect the output from voltage — making the output LOW. In all other cases, the output remains HIGH, satisfying the NAND truth table. While modern systems use transistors for speed and efficiency, this relay-based implementation demonstrates the fundamental logic at a hardware level.
+
+📖 [Full Explanation →](docs/logic_gates/nand_gate.md)
 
 ### Invert
 <img src= "https://github.com/user-attachments/assets/6a63fa9c-add3-4672-82a3-b2feff7e0e08" width="500" height='500'>
