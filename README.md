@@ -4,46 +4,59 @@ Solutions for The Nand Game, a game that teaches the fundamentals of computing b
 
 
 
-## Table of Contents
+## 📘 Table of Contents
 
-- [Levels](#levels)
-  - [Logic Gates](#logic-gates)
-    - [NAND Gate](#nand-gate)
-    - [Invert](#invert)
-    - [AND Gate](#and-gate)
-    - [OR Gate](#or-gate)
-    - [XOR Gate](#xor-gate)
-  - [Arithmetic](#arithmetic)
-    - [Half Adder](#half-adder)
-    - [Full Adder](#full-adder)
-    - [Multi-bit Adder](#multi-bit-adder)
-    - [Increment](#increment)
-    - [Subtraction](#subtraction)
-    - [Equal to Zero](#equal-to-zero)
-    - [Less than Zero](#less-than-zero)
-  - [Switching](#switching)
-    - [Selector](#selector)
-    - [Switch](#switch)
-  - [Arithmetic Logic Unit](#arithmetic-logic-unit)
-    - [Logic Unit](#logic-unit)
-    - [Arithmetic Unit](#arithmetic-unit)
-    - [ALU](#alu)
-    - [Condition](#condition)
-  - [Memory](#memory)
-    - [SR Latch](#SR-latch)
-    - [D Latch](#D-latch)
-    - [Data Flip-Flop](#data-flip-flop)
-    - [Register](#register)
-    - [Counter](#counter)
-    - [RAM](#ram)
-  - [Processor](#processor)
-    - [Combined Memory](#combined-memory)
-    - [ALU Instruction](#ALU-instruction)
-    - [Control Selector](#control-selector)
-    - [Control Unit](#control-unit)
-    - [Computer](#computer)
-    - [Input and Output](#input-and-output)
-- [Author](#author)
+<details>
+<summary>🔩 Hardware Implementation</summary>
+
+### 🔌 Logic Gates
+- [NAND Gate](#nand-gate)
+- [Invert](#invert)
+- [AND Gate](#and-gate)
+- [OR Gate](#or-gate)
+- [XOR Gate](#xor-gate)
+
+### ➗ Arithmetic
+- [Half Adder](#half-adder)
+- [Full Adder](#full-adder)
+- [Multi-bit Adder](#multi-bit-adder)
+- [Increment](#increment)
+- [Subtraction](#subtraction)
+- [Equal to Zero](#equal-to-zero)
+- [Less than Zero](#less-than-zero)
+
+### 🔀 Switching
+- [Selector](#selector)
+- [Switch](#switch)
+
+### 🧮 Arithmetic Logic Unit
+- [Logic Unit](#logic-unit)
+- [Arithmetic Unit](#arithmetic-unit)
+- [ALU](#alu)
+- [Condition](#condition)
+
+### 💾 Memory
+- [SR Latch](#sr-latch)
+- [D Latch](#d-latch)
+- [Data Flip-Flop](#data-flip-flop)
+- [Register](#register)
+- [Counter](#counter)
+- [RAM](#ram)
+
+### 🧠 Processor
+- [Combined Memory](#combined-memory)
+- [ALU Instruction](#alu-instruction)
+- [Control Selector](#control-selector)
+- [Control Unit](#control-unit)
+- [Computer](#computer)
+- [Input and Output](#input-and-output)
+
+</details>
+
+---
+
+- [👤 Author](#author)
+
 
 
 
