@@ -115,76 +115,97 @@ Solutions for The Nand Game, a game that teaches the fundamentals of computing b
 ## Switching
 
 ### Selector
-<img src="switching/selector.png" width="400">
+<img src="https://github.com/user-attachments/assets/f2380dc8-7580-4bbb-bcd8-1cfec0aaae62" width="500" height='500'>
+
 ( Notes )
 
 ### Switch
-<img src="switching/switch.png" width="400">
+<img src="https://github.com/user-attachments/assets/ceafba0f-ba99-4303-aa4c-3c9f03f6f895" width="500" height='500'>
+
 ( Notes )
 
 
 ## Arithmetic Logic Unit
 
 ### Logic Unit
-<img src="alu/logic_unit.png" width="400">
+<img src="https://github.com/user-attachments/assets/e92510f1-630c-481e-9eb1-d14b0382856a" width="500" height='500'>
+
 ( Notes )
 
 ### Arithmetic Unit
-<img src="alu/arithmetic_unit.png" width="400">
+<img src="https://github.com/user-attachments/assets/77e7c80c-9e55-4a12-9ff0-a72fdf42fd90" width="500" height='500'>
+
 ( Notes )
 
 ### ALU
-<img src="alu/alu.png" width="400">
+<img src="https://github.com/user-attachments/assets/960063b1-2fa3-49ac-a5bc-27afc469ddb7" width="500" height='500'>
+
 ( Notes )
 
 ### Condition
-<img src="alu/condition.png" width="400">
+<img src="https://github.com/user-attachments/assets/3cfa4369-9fdd-4d3c-afd8-65991a6bfa8d" width="500" height='500'>
+
 ( Notes )
 
 
 ## Memory
 
-### Latch
-<img src="memory/latch.png" width="400">
+### SR Latch
+<img src="https://github.com/user-attachments/assets/96e868f3-3b2b-45e3-a9ad-4540037b435f" width="500" height='500'>
+
+( Notes )
+
+### D Latch
+<img src="https://github.com/user-attachments/assets/02fdee17-8fe1-4daf-b904-6dcb8d403d31" width="500" height='500'>
+
 ( Notes )
 
 ### Data Flip-Flop
-<img src="memory/data_flipflop.png" width="400">
+<img src="https://github.com/user-attachments/assets/1b60491d-9adc-4281-bf7c-847b05f4719d" width="500" height='500'>
+
 ( Notes )
 
 ### Register
-<img src="memory/register.png" width="400">
+<img src="https://github.com/user-attachments/assets/cc80bf6b-2894-4fa9-a046-bb407db471f7" width="500" height='500'>
+
 ( Notes )
 
 ### Counter
-<img src="memory/counter.png" width="400">
+<img src="https://github.com/user-attachments/assets/baf03244-20c7-46b4-8634-5ded6ec65d20" width="500" height='500'>
+
 ( Notes )
 
 ### RAM
-<img src="memory/ram.png" width="400">
+<img src="https://github.com/user-attachments/assets/ea62fdaf-08e5-4da9-b6e3-1c0eb86aa022" width="500" height='500'>
+
 ( Notes )
 
 
 ## Processor
 
 ### Combined Memory
-<img src="processor/combined_memory.png" width="400">
+<img src="https://github.com/user-attachments/assets/ceafba0f-ba99-4303-aa4c-3c9f03f6f895" width="500" height='500'>
+
 ( Notes )
 
 ### Instruction
-<img src="processor/instruction.png" width="400">
+<img src="https://github.com/user-attachments/assets/ceafba0f-ba99-4303-aa4c-3c9f03f6f895" width="500" height='500'>
+
 ( Notes )
 
 ### Control Unit
-<img src="processor/control_unit.png" width="400">
+<img src="https://github.com/user-attachments/assets/ceafba0f-ba99-4303-aa4c-3c9f03f6f895" width="500" height='500'>
+
 ( Notes )
 
 ### Computer
-<img src="processor/computer.png" width="400">
+<img src="https://github.com/user-attachments/assets/ceafba0f-ba99-4303-aa4c-3c9f03f6f895" width="500" height='500'>
+
 ( Notes )
 
 ### Input and Output
-<img src="processor/input_output.png" width="400">
+<img src="https://github.com/user-attachments/assets/ceafba0f-ba99-4303-aa4c-3c9f03f6f895" width="500" height='500'>
+
 ( Notes )
 
 
