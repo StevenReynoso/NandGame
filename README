@@ -6,15 +6,15 @@ Each section below includes an image of my completed logic for that level, organ
 
 ---
 
-## 📘 Table of Contents
+# 📘 Table of Contents
 
-### 0. Logic Gates
+# 0. Logic Gates
 - [0.0 Invert](#00-invert)
 - [0.1 And](#01-and)
 - [0.2 Or](#02-or)
 - [0.3 Xor](#03-xor)
 
-### 1. Arithmetic
+# 1. Arithmetic
 - [1.0 Half Adder](#10-half-adder)
 - [1.1 Full Adder](#11-full-adder)
 - [1.2 Multi-bit Adder](#12-multi-bit-adder)
@@ -23,24 +23,24 @@ Each section below includes an image of my completed logic for that level, organ
 - [1.5 Equal to Zero](#15-equal-to-zero)
 - [1.6 Less than Zero](#16-less-than-zero)
 
-### 2. Plumbing
+# 2. Plumbing
 - [2.0 Selector](#20-selector)
 - [2.1 Switch](#21-switch)
 
-### 3. Memory
+# 3. Memory
 - [3.0 Latch](#30-latch)
 - [3.1 Data Flip-Flop](#31-data-flip-flop)
 - [3.2 Register](#32-register)
 - [3.3 Counter](#33-counter)
 - [3.4 RAM](#34-ram)
 
-### 4. Arithmetic Logic Unit (ALU)
+# 4. Arithmetic Logic Unit (ALU)
 - [4.0 Unary ALU](#40-unary-alu)
 - [4.1 ALU](#41-alu)
 - [4.2 Opcodes](#42-opcodes)
 - [4.3 Condition](#43-condition)
 
-### 5. Processor
+# 5. Processor
 - [5.0 Combined Memory](#50-combined-memory)
 - [5.1 Instruction Detector](#51-instruction-detector)
 - [5.2 Control Unit](#52-control-unit)
@@ -52,7 +52,7 @@ Each section below includes an image of my completed logic for that level, organ
 
 ## 🧩 Logic Gates
 
-### 0.0 Invert  
+## 0.0 Invert  
 ![Invert](0_logic_gates/0_invert.png)
 
 ### 0.1 And  
