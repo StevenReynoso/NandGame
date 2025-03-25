@@ -38,7 +38,8 @@ Solutions for The Nand Game, a game that teaches the fundamentals of computing b
     - [RAM](#ram)
   - [Processor](#processor)
     - [Combined Memory](#combined-memory)
-    - [Instruction](#instruction)
+    - [ALU Instruction](#ALU-instruction)
+    - [Control Selector](#control-selector)
     - [Control Unit](#control-unit)
     - [Computer](#computer)
     - [Input and Output](#input-and-output)
@@ -189,7 +190,7 @@ Solutions for The Nand Game, a game that teaches the fundamentals of computing b
 
 ( Notes )
 
-### Instruction
+### ALU Instruction
 <img src="https://github.com/user-attachments/assets/3c9b587d-d35d-4152-a710-7adbddc5e669" width="500" height='500'>
 
 ( Notes )
