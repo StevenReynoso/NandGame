@@ -74,7 +74,9 @@ This NAND gate is built using two SPDT (Single Pole Double Throw) relays. Each i
 ### Invert
 <img src= "https://github.com/user-attachments/assets/6a63fa9c-add3-4672-82a3-b2feff7e0e08" width="500" height='500'>
 
-( Notes )
+Builds a NOT gate using a NAND gate by tying both inputs together. This creates an inverter — a fundamental building block in digital logic.
+
+📖 [Full Explanation →](Docs/Logic_Gates/Inverter.md)
 
 ### AND Gate
 <img src= "https://github.com/user-attachments/assets/417dbc0a-8b8e-4e3a-99e3-9a283273c547" width="500" height='500'>
