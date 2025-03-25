@@ -3,7 +3,8 @@
 ## 🧠 Overview
 Now that we’ve created a NAND gate using relays, we can build a **NOT gate** by connecting **both inputs of a NAND gate to the same signal**.
 the logical NOT gate symbol is 
-![NotGate](Not-gate-en.svg.png)
+![not-gate](https://github.com/user-attachments/assets/e005d6c8-d117-407d-a471-31eb02feb77a)
+
 
 ### 🔁 How It Works
 By wiring the same input to both A and B of a NAND gate:
