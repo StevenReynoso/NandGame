@@ -185,27 +185,32 @@ Solutions for The Nand Game, a game that teaches the fundamentals of computing b
 ## Processor
 
 ### Combined Memory
-<img src="https://github.com/user-attachments/assets/ceafba0f-ba99-4303-aa4c-3c9f03f6f895" width="500" height='500'>
+<img src="https://github.com/user-attachments/assets/dffaeefd-b4bd-4d45-90f6-ebd570ed1fb5" width="500" height='500'>
 
 ( Notes )
 
 ### Instruction
-<img src="https://github.com/user-attachments/assets/ceafba0f-ba99-4303-aa4c-3c9f03f6f895" width="500" height='500'>
+<img src="https://github.com/user-attachments/assets/3c9b587d-d35d-4152-a710-7adbddc5e669" width="500" height='500'>
+
+( Notes )
+
+### Control Selector
+<img src="https://github.com/user-attachments/assets/5b63e4a6-0f7e-4eac-b9d6-fbbdf809b1b7" width="500" height='500'>
 
 ( Notes )
 
 ### Control Unit
-<img src="https://github.com/user-attachments/assets/ceafba0f-ba99-4303-aa4c-3c9f03f6f895" width="500" height='500'>
+<img src="https://github.com/user-attachments/assets/b873d9c1-46b4-4d91-bd68-5126b04cc6b6" width="500" height='500'>
 
 ( Notes )
 
 ### Computer
-<img src="https://github.com/user-attachments/assets/ceafba0f-ba99-4303-aa4c-3c9f03f6f895" width="500" height='500'>
+<img src="https://github.com/user-attachments/assets/1fb953a9-e5ae-45b8-8574-099addc68ff7" width="500" height='500'>
 
 ( Notes )
 
 ### Input and Output
-<img src="https://github.com/user-attachments/assets/ceafba0f-ba99-4303-aa4c-3c9f03f6f895" width="500" height='500'>
+<img src="https://github.com/user-attachments/assets/c7ec9049-1450-427f-9601-a610fb52673c" width="500" height='500'>
 
 ( Notes )
 
