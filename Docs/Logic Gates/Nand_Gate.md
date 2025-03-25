@@ -14,12 +14,13 @@ Each SPDT relay has:
 - Terminals labeled: **COM (common)**, **NC (normally closed)**, and **NO (normally open)**.
 
 ### 🔁 Circuit Description
-- **Input A** energizes **Relay 1’s coil**
-- **Input B** energizes **Relay 2’s coil**
-- The output is taken from a point that is only connected to voltage **when at least one relay remains in its NC position**.
+- **Input A** energizes **Relay 1’s coil from a normally closed state to a normally open**
+- **Input B** passes voltage through relay one, when input A's relay is on or 1, When input B's input is 1 the relay can pass voltage through the relay now that it is is an normally open state**
+- The output is taken from the first relay point to the second relay's coil side, this relay is another SPDT relay but this one is a normally open circuit by default.
+- the second input for the second relay is connected directly to voltage, where voltage by default is passed through the circuit since it is a normally open circuit until the coil for the second relay is energized.
 
-When **both inputs (A and B)** are HIGH (energizing both coils), both relays switch away from the NC contact, breaking the path to the output. This causes the output to be pulled LOW.  
-In **all other input combinations**, at least one relay remains unenergized, keeping its NC contact closed — allowing voltage to reach the output. This satisfies the NAND logic truth table.
+When **both inputs (A and B)** are HIGH (energizing both coils), causing the second relay to switch away from the NO contact, breaking the path to the output. This causes the output to be pulled LOW.  
+In **all other input combinations**, at least one relay remains unenergized, keeping the voltage to be passed through the second relay in its NO default state — allowing voltage to reach the output. This satisfies the NAND logic truth table.
 
 ---
 
