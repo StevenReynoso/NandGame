@@ -1,240 +1,180 @@
-# 🧠 NandGame / NAND2Tetris Project
+# 🧠 [NandGame](http://nandgame.com/) – Visual Logic Gate Computer Project
 
-This is my implementation and documentation of the **NandGame** , where I build a basic computer from the ground up — starting with a single NAND gate.
+Solutions and circuit screenshots for each level of **NandGame**, a browser-based game that teaches how to build a working computer starting from a single NAND gate.
 
----
-
-## 🚀 What This Project Is
-
-This project walks through the process of creating:
-- **Logic gates** from NAND (NOT, AND, OR, XOR, etc.)
-- **Memory components** (flip-flops, registers, RAM)
-- **ALU** (Arithmetic Logic Unit)
-- **CPU and instruction control logic**
-
-Each component is built from scratch and documented to show how higher-level functionality emerges from basic gates.
+Each section below includes an image of my completed logic for that level, organized by function (logic gates, memory, arithmetic, CPU, etc.).
 
 ---
 
-## 📚 What I Learned
+## 📘 Table of Contents
 
-- How complex computers can be built from simple NAND gates
-- The relationship between hardware and software logic
-- Binary data manipulation and memory control
-- CPU design concepts and instruction decoding
+### 0. Logic Gates
+- [0.0 Invert](#00-invert)
+- [0.1 And](#01-and)
+- [0.2 Or](#02-or)
+- [0.3 Xor](#03-xor)
+
+### 1. Arithmetic
+- [1.0 Half Adder](#10-half-adder)
+- [1.1 Full Adder](#11-full-adder)
+- [1.2 Multi-bit Adder](#12-multi-bit-adder)
+- [1.3 Increment](#13-increment)
+- [1.4 Subtraction](#14-subtraction)
+- [1.5 Equal to Zero](#15-equal-to-zero)
+- [1.6 Less than Zero](#16-less-than-zero)
+
+### 2. Plumbing
+- [2.0 Selector](#20-selector)
+- [2.1 Switch](#21-switch)
+
+### 3. Memory
+- [3.0 Latch](#30-latch)
+- [3.1 Data Flip-Flop](#31-data-flip-flop)
+- [3.2 Register](#32-register)
+- [3.3 Counter](#33-counter)
+- [3.4 RAM](#34-ram)
+
+### 4. Arithmetic Logic Unit (ALU)
+- [4.0 Unary ALU](#40-unary-alu)
+- [4.1 ALU](#41-alu)
+- [4.2 Opcodes](#42-opcodes)
+- [4.3 Condition](#43-condition)
+
+### 5. Processor
+- [5.0 Combined Memory](#50-combined-memory)
+- [5.1 Instruction Detector](#51-instruction-detector)
+- [5.2 Control Unit](#52-control-unit)
+- [5.3 Program Engine](#53-program-engine)
+- [5.4 Computer](#54-computer)
+- [5.5 Input and Output](#55-input-and-output)
+
+---
+
+## 🧩 Logic Gates
+
+### 0.0 Invert  
+![Invert](0_logic_gates/0_invert.png)
+
+### 0.1 And  
+![And](0_logic_gates/1_and.png)
+
+### 0.2 Or  
+![Or](0_logic_gates/2_or.png)
+
+### 0.3 Xor  
+![Xor](0_logic_gates/3_xor.png)
 
 ---
 
-## 🔧 Tools / Simulation Platforms Used
+## ➗ Arithmetic
 
-- [nandgame.com](https://nandgame.com/)
-- Optional: Logisim / HDL Simulator
----
+### 1.0 Half Adder  
+![Half Adder](1_arithmetics/0_half_adder.png)
 
-## ✍️ Notes
+### 1.1 Full Adder  
+![Full Adder](1_arithmetics/1_full_adder.png)
 
-I wrote short explanations for each component to reinforce the logic, design choices, and what I learned.  
-Each `.txt` file contains:
-- A description of the component
-- How it works
-- How it’s built from lower-level parts
+### 1.2 Multi-bit Adder  
+![Multi-bit Adder](1_arithmetics/2_multi-bit_adder.png)
 
----
+### 1.3 Increment  
+![Increment](1_arithmetics/3_increment.png)
 
-# NandGame
+### 1.4 Subtraction  
+![Subtraction](1_arithmetics/4_subtraction.png)
 
-Solutions for The Nand Game, a game that teaches the fundamentals of computing by building a computer from scratch. Each level is accompanied by images of the logic gates used to build the components.
+### 1.5 Equal to Zero  
+![Equal to Zero](1_arithmetics/5_equal_to_zero.png)
 
-
-
-## Table of Contents
-
-- [Levels](#levels)
-  - [Logic Gates](#logic-gates)
-    - [NAND Gate](#nand-gate)
-    - [Invert](#invert)
-    - [AND Gate](#and-gate)
-    - [OR Gate](#or-gate)
-    - [XOR Gate](#xor-gate)
-  - [Arithmetic](#arithmetic)
-    - [Half Adder](#half-adder)
-    - [Full Adder](#full-adder)
-    - [Multi-bit Adder](#multi-bit-adder)
-    - [Increment](#increment)
-    - [Subtraction](#subtraction)
-    - [Equal to Zero](#equal-to-zero)
-    - [Less than Zero](#less-than-zero)
-  - [Switching](#switching)
-    - [Selector](#selector)
-    - [Switch](#switch)
-  - [Arithmetic Logic Unit](#arithmetic-logic-unit)
-    - [Logic Unit](#logic-unit)
-    - [Arithmetic Unit](#arithmetic-unit)
-    - [ALU](#alu)
-    - [Condition](#condition)
-  - [Memory](#memory)
-    - [Latch](#latch)
-    - [Data Flip-Flop](#data-flip-flop)
-    - [Register](#register)
-    - [Counter](#counter)
-    - [RAM](#ram)
-  - [Processor](#processor)
-    - [Combined Memory](#combined-memory)
-    - [Instruction](#instruction)
-    - [Control Unit](#control-unit)
-    - [Computer](#computer)
-    - [Input and Output](#input-and-output)
-- [Author](#author)
-
-
-
-## Levels
-
-## Logic Gates
-
-### NAND Gate
-<img src="logic_gates/nand.png" width="400">
-2 components used. This is the simplest possible solution!
-
-### Invert
-<img src="logic_gates/invert.png" width="400">
-1 component used. 1 NAND gate in total. This is optimal!
-
-### AND Gate
-<img src="logic_gates/and.png" width="400">
-2 components used. 2 NAND gates in total. This is optimal!
-
-### OR Gate
-<img src="logic_gates/or.png" width="400">
-3 components used. 3 NAND gates in total. This is optimal!
-
-### XOR Gate
-<img src="logic_gates/xor.png" width="400">
-4 components used. 4 NAND gates in total. This is optimal!
-
-
-## Arithmetic
-
-### Half Adder
-<img src="arithmetic/half_adder.png" width="400">
-5 components used. 5 NAND gates in total. This is optimal!
-
-### Full Adder
-<img src="arithmetic/full_adder.png" width="400">
-9 components used. 9 NAND gates in total. This is optimal!
-
-### Multi-bit Adder
-<img src="arithmetic/multibit_adder.png" width="400">
-2 components used. 18 NAND gates in total. This is optimal!
-
-### Increment
-<img src="arithmetic/increment.png" width="400">
-2 components used. (Not counting 0 which does not contain any logic.) 145 NAND gates in total. This is the simplest possible solution!
-
-### Subtraction
-<img src="arithmetic/subtraction.png" width="400">
-3 components used. (Not counting 0 which does not contain any logic.) 161 NAND gates in total. This is the simplest possible solution!
-
-### Equal to Zero
-<img src="arithmetic/equal_to_zero.png" width="400">
-4 components used. 10 NAND gates in total. This is optimal!
-
-### Less than Zero
-<img src="arithmetic/less_than_zero.png" width="400">
-0 components used. (Not counting splitter which does not contain any logic.) 0 NAND gates in total. This is the simplest possible solution!
-
-
-## Switching
-
-### Selector
-<img src="switching/selector.png" width="400">
-4 components used. 4 NAND gates in total. This is optimal!
-
-### Switch
-<img src="switching/switch.png" width="400">
-4 components used. 4 NAND gates in total. This is optimal!
-
-
-## Arithmetic Logic Unit
-
-### Logic Unit
-<img src="alu/logic_unit.png" width="400">
-7 components used. 352 NAND gates in total. This is the simplest possible solution!
-
-### Arithmetic Unit
-<img src="alu/arithmetic_unit.png" width="400">
-5 components used. (Not counting 0 which does not contain any logic.) 434 NAND gates in total. This is the simplest possible solution!
-
-### ALU
-<img src="alu/alu.png" width="400">
-6 components used. (Not counting 0 which does not contain any logic.) 1042 NAND gates in total. This is the simplest possible solution!
-
-### Condition
-<img src="alu/condition.png" width="400">
-8 components used. (Not counting is neg which does not contain any logic.) 56 NAND gates in total. This is optimal!
-
-
-## Memory
-
-### Latch
-<img src="memory/latch.png" width="400">
-1 component used. 4 NAND gates in total. This is optimal!
-
-### Data Flip-Flop
-<img src="memory/data_flipflop.png" width="400">
-5 components used. 13 NAND gates in total. This uses the fewest possible components. (But it is possible to solve with a lower total of NAND gates.)
-
-### Register
-<img src="memory/register.png" width="400">
-2 components used. 26 NAND gates in total. This is the simplest possible solution!
-
-### Counter
-<img src="memory/counter.png" width="400">
-4 components used. (Not counting 0 which does not contain any logic.) 418 NAND gates in total. This is the simplest possible solution!
-
-### RAM
-<img src="memory/ram.png" width="400">
-4 components used. 484 NAND gates in total. This is the simplest possible solution!
-
-
-## Processor
-
-### Combined Memory
-<img src="processor/combined_memory.png" width="400">
-3 components used. 416 NAND gates in total. And 123904 for each kilobyte of RAM. This is the simplest possible solution!
-
-### Instruction
-<img src="processor/instruction.png" width="400">
-3 components used. (Not counting splitter which does not contain any logic.) 1162 NAND gates in total.
-
-### Control Unit
-<img src="processor/control_unit.png" width="400">
-10 components used. (Not counting splitter and 0 which does not contain any logic.) 1297 NAND gates in total.
-
-### Computer
-<img src="processor/computer.png" width="400">
-4 components used. (Not counting clock which does not contain any logic.) 2131 NAND gates in total. And 123904 for each kilobyte of RAM. (ROM storage not counted) This is the simplest possible solution!
-
-### Input and Output
-<img src="processor/input_output.png" width="400">
-3 components used. (Not counting lamp and button and bundler and splitter which does not contain any logic.) 6 NAND gates in total.
-
-
-
-## Author
-
+### 1.6 Less than Zero  
+![Less than Zero](1_arithmetics/6_less_than_zero.png)
 
 ---
+
+## 🔀 Plumbing
+
+### 2.0 Selector  
+![Selector](2_plumbing/0_selector.png)
+
+### 2.1 Switch  
+![Switch](2_plumbing/1_switch.png)
+
+---
+
+## 💾 Memory
+
+### 3.0 Latch  
+![Latch](3_memory/0_latch.png)
+
+### 3.1 Data Flip-Flop  
+![Data Flip-Flop](3_memory/1_data_flip-flop.png)
+
+### 3.2 Register  
+![Register](3_memory/2_register.png)
+
+### 3.3 Counter  
+![Counter](3_memory/3_counter.png)
+
+### 3.4 RAM  
+![RAM](3_memory/4_ram.png)
+
+---
+
+## ⚙️ Arithmetic Logic Unit
+
+### 4.0 Unary ALU  
+![Unary ALU](4_arithmetic_logic_unit/0_unary_alu.png)
+
+### 4.1 ALU  
+![ALU](4_arithmetic_logic_unit/1_ALU.png)
+
+### 4.2 Opcodes  
+![Opcodes](4_arithmetic_logic_unit/2_opcodes.png)
+
+### 4.3 Condition  
+![Condition](4_arithmetic_logic_unit/3_condition.png)
+
+---
+
+## 🧠 Processor
+
+### 5.0 Combined Memory  
+![Combined Memory](5_processor/0_combined_memory.png)
+
+### 5.1 Instruction Detector  
+![Instruction Detector](5_processor/1_instruction_detector.png)
+
+### 5.2 Control Unit  
+![Control Unit](5_processor/2_control_unit.png)
+
+### 5.3 Program Engine  
+![Program Engine](5_processor/3_program_engine.png)
+
+### 5.4 Computer  
+![Computer](5_processor/4_computer.png)
+
+### 5.5 Input and Output  
+![Input and Output](5_processor/5_input_and_output.png)
+
+---
+
+## 🙋 Author
+
+**Steven Reynoso**  
+📫 [GitHub](https://github.com/StevenReynoso) | [LinkedIn](https://linkedin.com/in/steven-reynoso-729315272)
+
+---
+
 ## 📌 Credits
 
-Based on the concepts from:
-- [nandgame.com](https://nandgame.com/)
+Inspired by:  
+- [nandgame.com](https://nandgame.com/)  
+- [NAND2Tetris](https://www.nand2tetris.org/)
 
 ---
 
-## 🧠 More Coming Soon
+## 🛠️ What's Next
 
-I'm continuing to work on:
-- Assembly
-- Transistor Side of NandGame
-- Real hardware simulation
+- [ ] Write-ups for each module explaining design choices  
+- [ ] Finish remaining processor components  
+- [ ] Explore hardware (e.g., Logisim or Verilog implementation)  
