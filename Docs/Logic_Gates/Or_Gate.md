@@ -2,29 +2,29 @@
 
 🧠 Overview
 
-An OR gate outputs HIGH (1) if either input is HIGH — or if both are HIGH. This is called an inclusive OR Gate, It only returns LOW (0) when both inputs are LOW. In logical terms, this is A OR B.
+An OR gate outputs HIGH (`1`) if either input is HIGH — or if both are HIGH. This is called an inclusive OR Gate, It only returns LOW (`0`) when both inputs are LOW. In logical terms, this is `A OR B`.
 
 We can implement this behavior using only NAND gates, by applying De Morgan's Theorem:
 
-A OR B = NOT(NOT A AND NOT B)
+`A OR B = NOT(NOT A AND NOT B)`
 
 This means we can:
 
-  Invert A → A NAND A
+- Invert A → A NAND A
 
-  Invert B → B NAND B
+- Invert B → B NAND B
 
-  Feed both into a NAND gate: (NOT A) NAND (NOT B)
+- Feed both into a NAND gate: (NOT A) NAND (NOT B)
 
 ♻️ How It Works
 
-Take input A, invert it using a NAND gate: A NAND A
+1. Take input `A`, invert it using a NAND gate:` A NAND A`
 
-Do the same for input B: B NAND B
+2. Do the same for input `B`: `B NAND B`
 
-Pass those two outputs into another NAND gate: (NOT A) NAND (NOT B)
+3. Pass those two outputs into another NAND gate: `(NOT A) NAND (NOT B)`
 
-The final result behaves exactly like A OR B.
+The final result behaves exactly like `A OR B`.
 
 This OR gate is constructed with three NAND gates — showing once again that NAND gates are truly universal.
 
