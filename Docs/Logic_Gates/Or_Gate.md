@@ -39,10 +39,10 @@ Imagine I have two apples, one in each of my hands. If I hand you one — you ha
 
 📄 What I Learned
 
-How to build an OR gate from NAND gates using De Morgan’s Law
+- How to build an OR gate from NAND gates using De Morgan’s Law
 
-The power of NAND as a universal gate
+- The power of NAND as a universal gate
 
-How simple inversions and compositions build complex logic
+- How simple inversions and compositions build complex logic
 
-A practical way to visualize logical operations through everyday analogies
+- A practical way to visualize logical operations through everyday analogies
