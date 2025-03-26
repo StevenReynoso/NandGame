@@ -2,7 +2,7 @@
 
 🧠 Overview
 
-An OR gate outputs HIGH (1) if either input is HIGH — or if both are HIGH. It only returns LOW (0) when both inputs are LOW. In logical terms, this is A OR B.
+An OR gate outputs HIGH (1) if either input is HIGH — or if both are HIGH. This is called an inclusive OR Gate, It only returns LOW (0) when both inputs are LOW. In logical terms, this is A OR B.
 
 We can implement this behavior using only NAND gates, by applying De Morgan's Theorem:
 
@@ -34,7 +34,7 @@ This OR gate is constructed with three NAND gates — showing once again that NA
 
 🖋️ Real-World Analogy
 
-Imagine I have two apples, one in each of my hands. If I hand you one — you have one or the other. If I hand you both — you still have "one or the other" (technically, both). This mirrors the behavior of an OR gate: it only cares that at least one input is present.
+Imagine I have two apples, one in each of my hands. If I hand you one — you have one or the other. If I hand you both — you still have "one or the other" (technically, both). This mirrors the behavior of an OR gate: it only cares that at least one input is present, hence why we call it inclusive OR gate.
 
 📄 What I Learned
 
