@@ -88,7 +88,9 @@ this builds the AND Gate, which takes two inputs and will tell you if they are b
 ### OR Gate
 <img src= "https://github.com/user-attachments/assets/06c7074d-90c0-405d-8202-d9423eb97642" width="500" height='500'>
 
-( Notes )
+Builds an OR gate using only NAND gates by applying De Morgan’s Law. Inverts both inputs, then NANDs the results — producing a circuit that’s true when either (or both) inputs are HIGH.
+
+📖 [Full Explanation →](Docs/Logic_Gates/Or_Gate.md)
 
 ### XOR Gate
 <img src= "https://github.com/user-attachments/assets/6d178735-9fac-4417-8767-20c6f363ddd2" width="500" height='500'>
