@@ -7,14 +7,10 @@ Think back to the OR gate apple analogy: if I give you **one apple**, you have "
 
 ---
 
-## 🔢 XOR Truth Table
+## 🔢 XOR symbol and Truth Table
 
-| A | B | A ⊕ B |
-|---|---|--------|
-| 0 | 0 |   0    |
-| 0 | 1 |   1    |
-| 1 | 0 |   1    |
-| 1 | 1 |   0    |
+![xor-gate](https://github.com/user-attachments/assets/69003cb5-28be-47b3-a02f-7ce4af0887f4)
+
 
 ---
 
