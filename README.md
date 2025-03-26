@@ -95,7 +95,9 @@ Builds an OR gate using only NAND gates by applying De Morgan’s Law. Inverts b
 ### XOR Gate
 <img src= "https://github.com/user-attachments/assets/6d178735-9fac-4417-8767-20c6f363ddd2" width="500" height='500'>
 
-( Notes )
+mplements exclusive logic using only NAND gates — true when inputs differ, false when they’re the same.
+
+📖 [Full Explanation →](Docs/Logic_Gates/Xor_Gate.md)
 
 
 ## Arithmetic
