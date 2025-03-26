@@ -10,11 +10,11 @@ A OR B = NOT(NOT A AND NOT B)
 
 This means we can:
 
-Invert A → A NAND A
+  Invert A → A NAND A
 
-Invert B → B NAND B
+  Invert B → B NAND B
 
-Feed both into a NAND gate: (NOT A) NAND (NOT B)
+  Feed both into a NAND gate: (NOT A) NAND (NOT B)
 
 ♻️ How It Works
 
@@ -30,7 +30,8 @@ This OR gate is constructed with three NAND gates — showing once again that NA
 
 📊 Symbol and Truth Table
 
-![alt text](or-gate.png)
+![or-gate](https://github.com/user-attachments/assets/41d87d73-77d3-463c-bbea-48e0741fd970)
+
 
 🖋️ Real-World Analogy
 
