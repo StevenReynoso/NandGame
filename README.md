@@ -86,7 +86,8 @@ this builds the AND Gate, which takes two inputs and will tell you if they are b
 📖 [Full Explanation →](Docs/Logic_Gates/And_Gate.md)
 
 ### OR Gate
-<img src= "https://github.com/user-attachments/assets/f1a27035-6c10-437f-9ecb-1288a5c8ca47" width="500" height='500'>
+<img src= "https://github.com/user-attachments/assets/06c7074d-90c0-405d-8202-d9423eb97642" width="500" height='500'>
+
 ( Notes )
 
 ### XOR Gate
