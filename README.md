@@ -114,6 +114,8 @@ This is the adder which allows us to add binary numbers from 0 to 2 (1 0) in bin
 
 The Full Adder allows us to add up 3 1-bit binary numbers to add from 0 to 3 (1 1 in binary)
 
+📖 [Full Explanation →](Docs/Arithmetic/Full_Adder.md)
+
 ### Multi-bit Adder
 <img src="https://github.com/user-attachments/assets/0b11db3e-de45-4540-9f38-364ed4fa2f87" width="500" height='500'>
 
