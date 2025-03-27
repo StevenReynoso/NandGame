@@ -81,7 +81,7 @@ Builds a NOT gate using a NAND gate by tying both inputs together. This creates 
 ### AND Gate
 <img src= "https://github.com/user-attachments/assets/417dbc0a-8b8e-4e3a-99e3-9a283273c547" width="500" height='500'>
 
-this builds the AND Gate, which takes two inputs and will tell you if they are both on, this is created by inverting the output of a NAND gate.
+This builds the AND Gate, which takes two inputs and will tell you if they are both on, this is created by inverting the output of a NAND gate.
  
 📖 [Full Explanation →](Docs/Logic_Gates/And_Gate.md)
 
@@ -105,13 +105,14 @@ Implements exclusive logic using only NAND gates — true when inputs differ, fa
 ### Half Adder
 <img src="https://github.com/user-attachments/assets/4e686314-48a7-4b3c-9334-e59d71cc1d49" width="500" height='500'>
 
-( Notes )
+This is the adder which allows us to add binary numbers from 0 to 2 (1 0) in binary
+
 📖 [Full Explanation →](Docs/Arithmetic/Half_Adder.md)
 
 ### Full Adder
 <img src="https://github.com/user-attachments/assets/3590fa52-51e3-47c8-879e-1fdcf3740c2b" width="500" height='500'>
 
-( Notes )
+The Full Adder allows us to add up 3 1-bit binary numbers to add from 0 to 3 (1 1 in binary)
 
 ### Multi-bit Adder
 <img src="https://github.com/user-attachments/assets/0b11db3e-de45-4540-9f38-364ed4fa2f87" width="500" height='500'>
