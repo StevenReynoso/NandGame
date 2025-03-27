@@ -47,10 +47,11 @@ This modular approach shows how we can build increasingly complex logic by **sta
 
 ## ♻️ Gate Implementation Using NANDs
 To build a Full Adder using only NAND gates:
-- Build two **Half Adders** (each needs 6 NAND gates)
-- Build one **OR gate** (3 NAND gates)
+![0b78609b-fe0d-42f2-a715-bdc4584a07f83868143203346644687](https://github.com/user-attachments/assets/37aa4de8-8829-4fc4-9f4a-4cbe5a3009f0)
 
-Total: **9 Nand Gates* minimum
+while this may be some what confusing on how to eliminate some nand gates, you would need 9 nand gates, instead of using the 3 components we used in our full adder level
+
+Total: **9 Nand Gates** minimum
 
 ---
 
