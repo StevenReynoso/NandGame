@@ -119,7 +119,7 @@ The Full Adder allows us to add up 3 1-bit binary numbers to add from 0 to 3 (1 
 ### Multi-bit Adder
 <img src="https://github.com/user-attachments/assets/0b11db3e-de45-4540-9f38-364ed4fa2f87" width="500" height='500'>
 
-( Notes )
+We made the Full Adder,and now we can stack Adders to make a multi bit adder to add as many numbers as we like in binary, and since binary numbers start from 2^0 then 2*1, and so forth, we can add really high numbers easily.
 
 ### Increment
 <img src="https://github.com/user-attachments/assets/d8ffba22-b6b3-46c4-b39a-e313b17727e9" width="500" height='500'>
