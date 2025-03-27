@@ -5,7 +5,7 @@ The **Half Adder** is a fundamental digital circuit that adds **two 1-bit binary
 
 - **Sum**: The result of the addition
 - **Carry**: A bit that represents overflow when both inputs are 1
-- ## NandGame makes these as 'h' and 'I' ##
+- **NandGame makes these as 'h' and 'I'**
 
 The Half Adder is called "half" because it does **not handle a carry-in** from a previous addition — for that, we'll need a **Full Adder**. This circuit is a building block for more complex arithmetic units like multi-bit adders and ALUs.
 
