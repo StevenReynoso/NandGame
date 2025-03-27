@@ -50,7 +50,7 @@ To build a Full Adder using only NAND gates:
 - Build two **Half Adders** (each needs 6 NAND gates)
 - Build one **OR gate** (3 NAND gates)
 
-Total: **15 NAND gates** minimum
+Total: **9 Nand Gates* minimum
 
 ---
 
