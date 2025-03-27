@@ -15,16 +15,8 @@ Unlike the **Half Adder**, which could only add two inputs, the Full Adder allow
 
 ## 🔢 Truth Table
 
-| A | B | Cin | Sum | Cout |
-|---|---|-----|-----|------|
-| 0 | 0 |  0  |  0  |  0   |
-| 0 | 0 |  1  |  1  |  0   |
-| 0 | 1 |  0  |  1  |  0   |
-| 0 | 1 |  1  |  0  |  1   |
-| 1 | 0 |  0  |  1  |  0   |
-| 1 | 0 |  1  |  0  |  1   |
-| 1 | 1 |  0  |  0  |  1   |
-| 1 | 1 |  1  |  1  |  1   |
+![adder-table](https://github.com/user-attachments/assets/8d6eb4e4-d294-40e4-a918-0cfa9c799f9d)
+
 
 ---
 
