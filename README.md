@@ -106,6 +106,7 @@ Implements exclusive logic using only NAND gates — true when inputs differ, fa
 <img src="https://github.com/user-attachments/assets/4e686314-48a7-4b3c-9334-e59d71cc1d49" width="500" height='500'>
 
 ( Notes )
+📖 [Full Explanation →](Docs/Arithmetic/Half_Adder.md)
 
 ### Full Adder
 <img src="https://github.com/user-attachments/assets/3590fa52-51e3-47c8-879e-1fdcf3740c2b" width="500" height='500'>
